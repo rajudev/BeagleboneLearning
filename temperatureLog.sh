@@ -1,4 +1,7 @@
 #!/bin/bash
+#@rajuvindane
+#based on the script https://github.com/raspberrypilearning/temperature-log
+
 
 timestamp=`date +%F_%H-%M-%S`
 echo "Temperature Log - $(date)" >/root/TemperatureLogs/temperature_log_$timestamp.txt
